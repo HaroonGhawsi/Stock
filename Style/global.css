@@ -1,0 +1,32 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    font-family: RobotoSlab;
+}
+body{
+    background-color: #e9ece5;
+}
+div{
+    display: block;
+}
+
+button {
+    background: none repeat scroll 0 0 #173e43;
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: none;
+    color: #FFFFFF;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 8px 12px;
+    width: 47.5%;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.05);
+    transition: all 0.2s ease 0s;
+    vertical-align: middle;
+}
+

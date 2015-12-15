@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    background-color: #173e43 ;
+    font-family: RobotoSlab;
+}
+input[type="text"], input[type="password"] {
+    transition: background 0.5s ease 0s, border-color 0.5s ease 0s;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    color: #525355;
+    display: inline-block;
+    font-size: 16px;
+    height: 44.2px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    padding: 4px 6px;
+}
+input {
+    border: 2px solid #E4E7EE;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: none;
+}
+input {
+    -moz-box-sizing: border-box;
+    width: 100%;
+}
+input, textarea, select, .uneditable-input {
+    border: 1px solid #A3ACB8;
+    border-radius: 3px 3px 3px 3px;
+}
+input {
+    width: 100%;
+}
+label, input, button, select, textarea {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: middle;
+    padding: 4px 6px;
+}
+.form {
+    background-color: #eeeeee;
+    margin: 0 auto;
+    padding: 30px 40px;
+    display: block;
+   /* height: 300px;*/
+   width: 300px;
+    border: 2px solid black;
+}
+.formHeader{
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+button {
+    background: none repeat scroll 0 0 #173e43;
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: none;
+    color: #FFFFFF;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 8px 12px;
+    width: 47.5%;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.05);
+    transition: all 0.2s ease 0s;
+    vertical-align: middle;
+}
